@@ -22,11 +22,13 @@ const start = () => {
       readEmployees();
 
     } else if (answer.userAction == "View all departments") {
-      // run the SELECT * FROM employee
+      // run the SELECT * FROM employee 
       readDepartments()
     } else if(answer.userAction == "Add Employee") {
       createEmployee();
-    }
+    }else if (answer.userAction == "View all roles") {
+      // run the SELECT * FROM employee 
+      readRoles()
   
   })
 }

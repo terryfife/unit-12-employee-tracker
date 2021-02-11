@@ -5,5 +5,5 @@ INSERT INTO department (name)
 VALUES ("Accounting"),("Marketing"),("Operations");
 
 INSERT INTO role (name)
-VALUES ("Accounting"),("Marketing"),("Operations");
+VALUES ("Manager"),("Team Member"),("Warehouse");
 
