@@ -3,13 +3,12 @@ const prompts = require("../lib/prompts")
 
 const connection = mysql.createConnection({
  host: "localhost",
- port: 8080,
+ port: 3306,
  user: "root",
  password: "password",
- database: "employee-tracker"
+ database: "employee_trackerDB"
 });
 
-connection.connect(function(err) {
 
-}
+module.exports = connection;
 
